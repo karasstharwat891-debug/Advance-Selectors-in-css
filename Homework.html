@@ -1,0 +1,78 @@
+<html>
+    <head>
+        Ice cream shop menu
+        <style>
+            body{
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                background-color: rgb(245, 185, 227);
+                text-align: center;
+                color: rgb(224, 108, 189);
+            }
+            h1{
+                color: rgb(219, 51, 121);
+            }
+            h1+p{
+                font-weight: bold;
+                color: rgb(231, 80, 143);
+                background-color: antiquewhite;
+                border-radius: 10px;
+            }
+            .shop-description::first-letter{
+                color: rgb(212, 124, 131);
+                font-size: 36px;
+                font-weight: bold;
+            }
+            .menu-box{
+                width: 420px;
+                background-color: pink;
+                border: white;
+                border-radius: 15px;
+            }
+            ul{
+                padding: 0;
+            }
+            ul>li{
+                list-style: none;
+                background-color: antiquewhite;
+                font-size: 18px;
+                font-weight: bold;
+                padding: 12px;
+                margin: 10px;
+                border-radius: 10px;
+                border: 2px solid;
+            }
+            ul>li:nth-child(3){
+                background-color: rgb(143, 27, 108);
+                color: white;
+                border: 3px soli;
+            }
+            ul>li:hover{
+                color: aliceblue;
+                background-color: rgb(212, 124, 131);
+                cursor: pointer;
+                transform: scale(1.05);
+            }
+            button:hover{
+                background-color: rgb(212, 124, 124);
+            }
+        </style>
+    </head>
+    <body>
+        <h1>My ice cream shop menu</h1>
+        <p>Welcome to my ice cream shop menu</p>
+        <p class="shop-description">
+            We serve many various deliciou and creamy flavors thwill draw your
+            attention when trying them
+        </p>
+        <div class="menu-box"></div>
+        <h2>Today's Ice cream flavors</h2>
+        <ul>
+            <li>Chocolate delight</li>
+            <li>Vanilla</li>
+            <li>Pistachio-Most popular</li>
+            <li>Cookies</li>
+        </ul>
+            <p>Don't forget to visit us tomorrow for different flavors</p>
+        <button>Order now!</button>
+    </body>
+</html>
